@@ -1,0 +1,22 @@
+
+
+### monitor
+GET http://localhost:9130/monitor
+
+
+### login
+POST http://localhost:9130/user/login
+Content-Type: application/json;charset=UTF-8
+Accept: application/json
+
+{"id":1,"name":"1"}
+
+
+### 获取用户信息
+GET http://localhost:9130/user/info?id=1
+Content-Type: application/json;charset=UTF-8
+Accept: application/json
+token: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJlZTUzMzZiMC1hNDYyLTQ3M2MtYWJkYS03ZDkyMjAzMGU5ZWIiLCJzdWIiOiJ7XCJhZ2VcIjoxOCxcImVtYWlsXCI6XCJ0ZXN0MUBiYW9taWRvdS5jb21cIixcImlkXCI6MSxcIm5hbWVcIjpcIkpvbmVcIn0iLCJpc3MiOiJ4cSIsImlhdCI6MTY0MTY5NzE0NSwiZXhwIjoxNjQxNzAwNzQ1fQ.enoyVEGEql1Np2iqRYVGWCofM_YGyq0GgXIG1e540Yc
+
+
+

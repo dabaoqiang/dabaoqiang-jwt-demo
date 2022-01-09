@@ -1,0 +1,40 @@
+debug: true
+log:
+  path: /D/indiev-mobile-cloud-rest/logs
+mybatis-plus:
+  configuration:
+    default-fetch-size: 100
+    default-statement-timeout: 10
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath*:mapper/*Mapper.xml
+  type-aliases-package: com.dabaoqiang.jwt.mybatis.domain,;
+server:
+  port: 9130
+  tomcat:
+    uri-encoding: UTF-8
+spring:
+  application:
+    name: dabaoqiang-jwt-demo-rest
+  datasource:
+    connectionProperties: clientEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat,wall,log4j2
+    initialSize: 2
+    logSlowSql: true
+    loginTimeout: 5
+    maxActive: 50
+    maxPoolPreparedStatementPerConnectionSize: 4
+    maxWait: 8000
+    minEvictableIdleTimeMillis: 300000
+    minIdle: 2
+    password: 123456
+    poolPreparedStatements: true
+    slowSqlMillis: 2000
+    testOnBorrow: true
+    testOnReturn: false
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 60000
+    type: com.alibaba.druid.pool.DruidDataSource
+    url: jdbc:mysql://124.223.41.193:3306/dabaoqiang?autoReconnect=true&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    validationQuery: select 1
