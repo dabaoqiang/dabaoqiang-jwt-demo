@@ -1,2 +1,9 @@
-* [首页](/)
-* [Guide](guide.md "The greatest guide in the world")
+* 1组周报
+  * [陈强周报](foreword/陈强的周报-2022年11月25日.md)
+  * [陈帅周报](foreword/陈帅的周报-2022年11月25日.md)
+* 2组周报
+  * [李亮文周报](foreword/李亮文的周报-2022年11月25日.md)
+  * [谭凯周报](foreword/谭凯的周报-2022年11月25日.md)
+
+
+  
